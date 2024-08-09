@@ -27,8 +27,8 @@ app.post("/add", (req, res) => {
         if (err) {
             throw err;
         }
-        /* console.log("Record Inserted Successfully");
-        res.send("Record Inserted Successfully"); */
+        console.log("Record Inserted Successfully");
+        res.send("Record Inserted Successfully"); 
     });
 });
 
